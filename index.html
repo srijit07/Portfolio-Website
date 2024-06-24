@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Srijit Sen</title>
+  </head>
+  <body>
+    <!--=============== STYLE SWITCHER ===============-->
+    <!--
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="light-dark" />
+
+    <div class="style__switcher">
+      
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+      
+
+      <label for="light-dark" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+      
+      <h3 class="style__switcher-title">Theme Colors</h3>
+
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+      </div>
+      
+    </div>
+    -->
+
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Srijit</a>
+
+        <input type="checkbox" id="nav-toggler">
+
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Experience</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+
+        
+        <!--
+        <button id="theme-switcher" class="theme-switcher">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        -->
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hey!</span>
+            <h1 class="home__title">
+              <span>I'm</span> Srijit <br/>
+              a <span>Web Developer</span>
+            </h1>
+
+            <p class="home__description">
+              Pursuing my engineering in Computer Science, I hold my interests 
+              in Development of Applications & Websites and learn about ML models 
+              & their applications. 
+
+            </p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Contact Me</a>
+              <a href="#work" class="btn btn--transparent">Portfolio</a>
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/Photowalk-Edited.png" alt="" class="home__img">
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/AboutPic.png " alt="" class="about__img">
+            <img src="assets/img/AboutPic.png " alt="" class="about__img">
+            <img src="assets/img/AboutPic.png " alt="" class="about__img">
+            <img src="assets/img/AboutPic.png " alt="" class="about__img">
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I'm Srijit Sen, a Web Developer and ML enthusiast
+            </h2>
+
+            <p class="about__description">
+              I am currently a 3rd year student at MIT Bangalore, where I am actively 
+              honing my skills as an intermediate-level web developer. My journey 
+              involves continuous learning and the practical application of my 
+              knowledge within my areas of passion, contributing to both personal 
+              projects and the open-source community.
+            </p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Studying At:</h3>
+                <span class="data__description">MIT, Bangalore</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">20 years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Location:</h3>
+                <span class="data__description">Kolkata, India</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email:</h3>
+                <span class="data__description about__link"><a href="mailto:sensrijit31@gmail.com" target="_blank">sensrijit31@gmail.com</a></span>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="assets/pdf/Resume.pdf" class="btn" target="_blank">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="https://www.instagram.com/srijit.07/" class="about__social-link" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/srijit-sen-618943283/" class="about__social-link" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/srijit07" class="about__social-link" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== QUALIFICATION ===============-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Manipal Institute Of Technology, Bangalore</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Bachelor Of Technology</h3>
+                    <span class="resume__date">2022 - PRESENT</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Current C.G.P.A.: 8.7
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">D.P.S. Ruby Park, Kolkata</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">A.I.S.S.C.E.</h3>
+                    <span class="resume__date">2020 - 2022</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Percentage: 91% ,<br/>
+                    Subjects: Computer Science, Physics, Chemistry, Mathematics, English
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">D.A.V. Public School, Kolkata</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">A.I.S.S.E.</h3>
+                    <span class="resume__date">2009 - 2020</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Percentage: 94.4% ,<br/>
+                    Subjects: Science, Social-Science, English, Mathematics, Hindi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Back-End Developer</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">PENNYWORTH</h3>
+                    <span class="resume__date">2024 - PRESENT</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Tools: Unity, C#, PHP, MySQL
+                  </p>
+                </div>
+              </div>
+              
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Media Lead</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">CodeX - Learn IT & Coding Club</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    I was responsible to cover all the major events
+                    held by the club in the campus, and provide a detailed
+                    photography portfolio at the end of each event.
+                  </p>
+                </div>
+              </div>
+              
+              <!--
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">D.A.V. Public School, Kolkata</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">A.I.S.S.E.</h3>
+                    <span class="resume__date">2009 - 2020</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Percentage: 94.4% ,<br/>
+                    Subjects: Science, Social-Science, English, Mathematics, Hindi
+                  </p>
+                </div>
+              </div>
+              -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PASSIONS ===============-->
+      <section class="passions section" id="passions">
+        <h2 class="section__title title-center" data-title="Passions">Heart & Soul Pursuits</h2>
+
+        <div class="passions__container container grid" >
+          <div class="passions__item">
+            <i class="fa-solid fa-camera passions__icon"></i>
+
+            <h3 class="passions__title">Photography</h3>
+            <p class="passions__description">
+              Photography is the art of capturing the right moment at the right time, 
+              in the right place and then telling my version of the story that I 
+              encapsulate with it. 
+            </p>
+
+            <span class="passions__no">01 </span>
+          </div>
+
+          <div class="passions__item">
+            <i class="fa-regular fa-futbol passions__icon"></i>
+
+            <h3 class="passions__title">Football</h3>
+            <p class="passions__description">
+              Football is the art of seizing the perfect moment on the pitch, 
+              showcasing skill and passion, and narrating the thrilling story 
+              of each game.
+            </p>
+
+            <span class="passions__no">02</span>
+          </div>
+
+          <div class="passions__item">
+            <i class="fa-solid fa-plane-departure passions__icon"></i>
+
+            <h3 class="passions__title">Aviation</h3>
+            <p class="passions__description">
+              Aviation is the pursuit of perfecting every takeoff and landing, 
+              relishing the journey, and recounting the stories of each soaring 
+              experience.
+            </p>
+
+            <span class="passions__no">03</span>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talents">Professional Skills</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <i class="fa-solid fa-code skills__icon c_icon"></i>
+            <h3 class="skills__title">C & C++</h3>
+          </div>
+          
+          <div class="skills__item">
+            <i class="fa-brands fa-java skills__icon java_icon"></i>
+            <h3 class="skills__title">Java</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-brands fa-python skills__icon python_icon"></i>
+            <h3 class="skills__title">Python</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-brands fa-html5 skills__icon html_icon"></i>
+            <h3 class="skills__title">HTML5.0</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-brands fa-css3-alt skills__icon css_icon"></i>
+            <h3 class="skills__title">CSS 3</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-brands fa-js skills__icon js_icon"></i>
+            <h3 class="skills__title">Javascript</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-brands fa-php skills__icon php_icon"></i>
+            <h3 class="skills__title">PHP</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-solid fa-database skills__icon sql_icon"></i>
+            <h3 class="skills__title">MySQL</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-brands fa-github skills__icon github_icon"></i>
+            <h3 class="skills__title">GitHub</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-solid fa-video skills__icon video_icon"></i>
+            <h3 class="skills__title">Adobe Premier Pro</h3>
+          </div>
+
+          <div class="skills__item">
+            <i class="fa-solid fa-photo-film skills__icon photo_icon"></i>
+            <h3 class="skills__title">Adobe Photoshop</h3>
+          </div>
+          
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="works section" id="work">
+        <h2 class="section__title title-center" data-title="My Portfolio">My Recent Works</h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <input type="checkbox" id="toggle1" class="work__toggle">
+            <label for="toggle1" class="work__img-label">
+              <img src="assets/img/project-img-2.jpg" alt="" class="work__img">
+
+              <div class="work__details">
+                <h3 class="work__title">Android App</h3>
+                <span class="work__description">Personal Expense Tracker</span>
+              </div>
+            </label>
+
+            <div class="work__extra-details">
+              <p class="name__extra-details">Name: PennyWorth</p>
+              <p class="description__extra-details">Description: This expense tracker allows users to log and categorize expenses 
+                in a visually engaging Unity interface while leveraging PHP for backend logic 
+                and SQL for robust data storage and retrieval, ensuring seamless tracking and 
+                analysis of financial transactions.</p>
+              <p class="tools__extra-details">Tools Used: Unity, C#, PHP, MySQL</p>
+              <p class="reference__extra-details">Reference: <a href="https://github.com/srijit07/Pennyworth" class="reference__anchor" target="_blank">GitHub Profile</a></p>
+            </div>
+          </div>
+          <!--
+          <div class="work__card">
+            <input type="checkbox" id="toggle2" class="work__toggle">
+            <label for="toggle2" class="work__img-label">
+              <img src="assets/img/project-img-2.jpg" alt="" class="work__img">
+
+              <div class="work__details">
+                <h3 class="work__title">Web Design</h3>
+                <span class="work__description">Portfolio Website</span>
+              </div>
+            </label>
+
+            <div class="work__extra-details">
+              <p class="name__extra-details">PortFolio WebSite</p>
+              <p class="description__extra-details">Description: This expense tracker allows users to log and categorize expenses 
+                in a visually engaging Unity interface while leveraging PHP for backend logic 
+                and SQL for robust data storage and retrieval, ensuring seamless tracking and 
+                analysis of financial transactions.</p>
+              <p>Tools Used: HTML5.0, CSS3, JavaScript</p>
+            </div>
+          </div>
+          <div class="work__card">
+            <input type="checkbox" id="toggle3" class="work__toggle">
+            <label for="toggle3" class="work__img-label">
+              <img src="assets/img/project-img-2.jpg" alt="" class="work__img">
+
+              <div class="work__details">
+                <h3 class="work__title">Web Design</h3>
+                <span class="work__description">Portfolio Website</span>
+              </div>
+            </label>
+
+            <div class="work__extra-details">
+              <p class="name__extra-details">PortFolio WebSite</p>
+              <p class="description__extra-details">Description: This expense tracker allows users to log and categorize expenses 
+                in a visually engaging Unity interface while leveraging PHP for backend logic 
+                and SQL for robust data storage and retrieval, ensuring seamless tracking and 
+                analysis of financial transactions.</p>
+              <p>Tools Used: HTML5.0, CSS3, JavaScript</p>
+            </div>
+          </div>
+          <div class="work__card">
+            <input type="checkbox" id="toggle4" class="work__toggle">
+            <label for="toggle4" class="work__img-label">
+              <img src="assets/img/project-img-2.jpg" alt="" class="work__img">
+
+              <div class="work__details">
+                <h3 class="work__title">Web Design</h3>
+                <span class="work__description">Portfolio Website</span>
+              </div>
+            </label>
+
+            <div class="work__extra-details">
+              <p class="name__extra-details">PortFolio WebSite</p>
+              <p class="description__extra-details">Description: This expense tracker allows users to log and categorize expenses 
+                in a visually engaging Unity interface while leveraging PHP for backend logic 
+                and SQL for robust data storage and retrieval, ensuring seamless tracking and 
+                analysis of financial transactions.</p>
+              <p>Tools Used: HTML5.0, CSS3, JavaScript</p>
+            </div>
+          </div>
+          -->
+          
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testimonials">What My Peers Say</h2>
+
+        <div class="testimonials__container container grid">
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Srijit's dedication to what he wants to learn and pursue is inspiring. I have seen him 
+              spend hours on end researching study materials, tinkering around with coding languages, 
+              and building projects. He is a team player and I am honored to work with him. I wish him 
+              nothing but the best for all his future endeavors.
+            </p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/Deepro.jpg" alt="" class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">
+                  <a href="https://www.linkedin.com/in/deepro-chakravorty/" class="testimonials__link" target="_blank">Deepro Chakravorty</a>
+                </h3>
+                <span class="testimonials__identity">Bangalore, India</span>
+              </div>
+            </div>
+          </div>
+          <!--
+          <div class="testimonials__item">
+            <p class="testimonials__description">
+              Srijit's dedication to what he wants to learn and pursue is inspiring. I have seen him 
+              spend hours on end researching study materials, tinkering around with coding languages, 
+              and building projects. He is a team player and I am honored to work with him. I wish him 
+              nothing but the best for all his future endeavors.
+            </p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/testimonial-1.jpg" alt="" class="testimonials__img">
+
+              <div>
+                <h3 class="testimonials__name">Deepro Chakravorty</h3>
+                <span class="testimonials__identity">Bangalore, India</span>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </section>
+
+      <!--=============== CONTACT ==============-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get In Touch"></h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__connect">
+            <h1 class="contact__title">Let's Connect! :) <br> Tell me about your <br> project.</h1>
+            <p class="contact__subtitle">Let's create something together &#129309;</p>
+
+            <div class="contact__social-links">
+              <a href="https://www.instagram.com/srijit.07/" class="contact__social-link" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/srijit-sen-618943283/" class="contact__social-link" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a href="https://github.com/srijit07" class="contact__social-link" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <form id="contactForm" action="https://formspree.io/f/mqkrvgzv" method="POST" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" name="Name" placeholder="Name" class="input__control">
+              </div>
+
+              <div class="form__input">
+                <input type="email" name="Email" placeholder="Email" class="input__control">
+              </div>
+            </div>
+
+            <div class="form__input">
+              <input type="text" name="Subject" placeholder="Subject" class="input__control">
+            </div>
+
+            <div class="form__input">
+              <textarea 
+              name="Message" 
+              id="" 
+              placeholder="Message"
+              cols="30" 
+              rows="10" 
+              class="input__control textarea"
+              ></textarea>
+            </div>
+
+            <button class="btn contact__btn">Submit</button>
+
+            <div id="formMessage" class="form__message"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__copyright">&copy; <span id="year"></span> Srijit. All Rights Reserved.</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
